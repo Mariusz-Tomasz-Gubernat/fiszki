@@ -1,0 +1,25 @@
+$global-font:'Playfair Display',
+serif;
+$body-bgc:#b8a779;
+
+$scrollbar-broder-color:#808080;
+$scrollbar-hover-bgc:rgb(78, 22, 22);
+
+$column-bgc:#000000e6;
+$column-paragraph-element-bgc:#ff0000;
+$column-border-color: #ffd700;
+$column-paragraph-font:Roboto;
+
+$sidebar-image: linear-gradient(to right, #ffffff 50%, #ff0000 50%);
+$activeModal-color:#ffffff;
+$activeModal-bgc:#61573e;
+
+$subNavigation-number-bgc:linear-gradient(#ffffff 50%, #ff0000 50%);
+$select-flashcards-bgc:rgba(100, 8, 8, 0.95);
+$select-flashcards-border:2px solid gold;
+
+@mixin elementCentre {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
